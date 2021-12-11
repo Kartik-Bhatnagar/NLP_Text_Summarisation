@@ -98,10 +98,10 @@ def generate_summary(rawtext, top_n=5):
 
 
 with header:
-    st.title('Text Summarization using NLTK')
+    st.title('Text Summarisation')
 
 with body:
-    st.header('Extractive Summarization')
+    st.header('Extractive Summarisation')
     rawtext = st.text_area('Enter Text Here')
 
     sample_col, upload_col = st.beta_columns(2)
